@@ -135,5 +135,5 @@ spec:
 - We are creating deployment type file Strategy is which means if any changes is there it will apply those changes.
 - The RollingUpdate will check if any request is server by the conainer after the request is being served it will aply the changs.
 - Rivision history limit means number of changes that can prform it will keep track of all revision in the form of revisions.
-- MaxSurge means whenever a revision is applied it will creat specified number of cotainer according to the values is given it will apply it to the pod.
+- MaxSurge means whenever a revision is applied it will create specified number of container according to the values is given it will apply it to the pod.
 
